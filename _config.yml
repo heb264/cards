@@ -17,8 +17,8 @@ title: Cards for all Occassions
 email: me@helenburgess.id.au
 description: >- # this means to ignore newlines until "baseurl:"
   Helen creates Christmas cards each year using github pages. This is to be a collection of cards going forward from 2017.
-baseurl: "/cards" # the subpath of your site, e.g. /blog
-url: "http://helenburgess.id.au" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: hlnbee
 github_username:  heb264
 
