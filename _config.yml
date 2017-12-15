@@ -26,7 +26,13 @@ github_username:  heb264
 markdown: kramdown
 theme: jekyll-theme-cayman
 plugins:
-  
+
+defaults:
+  - 
+    scope:
+      path: ""
+      values:
+        layout: "default"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
