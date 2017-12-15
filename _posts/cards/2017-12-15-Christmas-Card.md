@@ -6,3 +6,5 @@ categories: card christmas 2017
 permalink: /:year-ChristmasCard/
 ---
 
+this is a start of the christmas card
+
