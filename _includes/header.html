@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-dark">
    <a class="navbar-brand" href="#">{{site.title}}</a>
    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
       aria-expanded="false" aria-label="Toggle navigation">
@@ -14,14 +14,17 @@
             </a>
          </li>
          {% endfor%}
-          {% for post in site.posts %}
          <li>
+         <a class="nav-link dropdown-toggle waves-effect waves-light" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">Cards
+         </a>
+         <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+            {% for post in site.posts %}
             <a class="nav-link" href="{{post.url}}">{{post.title}}
 
-            </a>
-
+            </a>{% endfor%}
+         </div>
          </li>
-          {% endfor%}
       </ul>
    </div>
 </nav>
